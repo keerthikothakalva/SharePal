@@ -2,24 +2,22 @@
 
 Clone of SharePal.in - Rent Gaming Consoles, Cameras, Fitness & Trekking gears.
 
-Live: https://sharepal.vercel.app  
+Live: https://sharepal-keerthi.vercel.app/  
 Repo: https://github.com/keerthikothakalva/SharePal
 
-### Features
-- **Gaming on Rent** - PS5, Xbox (23 products from company Products.js)
-- **Cameras / Fitness / Trekking** - Shows "launching soon" as per company data
-- **Place Filter** - Bangalore, Mumbai, Delhi, Hyderabad, Pune, Gurgaon, Noida
-- **Date Picker** - Calculates days & total price
-- **Search** - Search in Gaming
-- **Login** - OTP flow (demo OTP 123456) + localStorage
-- **Cart & Checkout** - Success modal with Order ID, Name, Phone, Place, Days, Total
-- **Responsive** - Same 1280px width for header + products (fixed alignment)
-- **Banner** - Color changes per category (Gaming #FFD93D, Cameras #A5D6FF, Fitness #B9F5C3, Trekking #FFD6A5)
 
-### Tech
-React + Vite, Pure CSS, No backend
+What I built:
+- Gaming page with 23 products that company gave in Products.js
+- For camera/fitness/trekking i showed launching soon as there was no data
+- Added place filter (Bangalore, Mumbai etc) and date picker that calculates total price
+- Login with OTP (use 123456) and cart with success popup showing order details
+- Fixed all UI issues - header and products are now same 1280px width and banner gap removed
 
-### Run Locally
-```bash
+How to run:
 npm install
 npm run dev
+
+Tech I used: React, Vite, JavaScript , CSS only. 
+
+Thanks!
+Keerthi
