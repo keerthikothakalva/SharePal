@@ -1,16 +1,25 @@
-# React + Vite
+# SharePal - India's Largest Rental Marketplace
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Clone of SharePal.in - Rent Gaming Consoles, Cameras, Fitness & Trekking gears.
 
-Currently, two official plugins are available:
+Live: https://sharepal.vercel.app  
+Repo: https://github.com/keerthikothakalva/SharePal
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+### Features
+- **Gaming on Rent** - PS5, Xbox (23 products from company Products.js)
+- **Cameras / Fitness / Trekking** - Shows "launching soon" as per company data
+- **Place Filter** - Bangalore, Mumbai, Delhi, Hyderabad, Pune, Gurgaon, Noida
+- **Date Picker** - Calculates days & total price
+- **Search** - Search in Gaming
+- **Login** - OTP flow (demo OTP 123456) + localStorage
+- **Cart & Checkout** - Success modal with Order ID, Name, Phone, Place, Days, Total
+- **Responsive** - Same 1280px width for header + products (fixed alignment)
+- **Banner** - Color changes per category (Gaming #FFD93D, Cameras #A5D6FF, Fitness #B9F5C3, Trekking #FFD6A5)
 
-## React Compiler
+### Tech
+React + Vite, Pure CSS, No backend
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
-
-## Expanding the ESLint configuration
-
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+### Run Locally
+```bash
+npm install
+npm run dev
